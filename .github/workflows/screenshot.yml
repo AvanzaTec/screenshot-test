@@ -29,7 +29,7 @@ jobs:
         name: Download-screenshots
   perspective:
     name: Change image perspective
-    needs: screenshots
+    needs: screenshot
     runs-on: ubuntu-latest
     steps:
       - name: Download screenshots
